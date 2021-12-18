@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="@color/purple_500"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/nameId"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:padding="10dp"
+       android:hint="your name"
+       android:textSize="20dp"
+       android:textStyle="bold"
+       android:layout_marginRight="40dp"
+       android:layout_marginLeft="40dp"
+       android:layout_marginTop="60dp"
+       />
+    <EditText
+        android:id="@+id/mailId"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="10dp"
+        android:hint="your mail"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        />
+    <EditText
+        android:id="@+id/desId"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="description:"
+        android:textStyle="bold"
+        android:layout_height="100dp"/>
+    <Button
+        android:id="@+id/saveId"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save here"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginTop="50dp"
+
+        />
+    <Button
+        android:id="@+id/showId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show here"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+
+        />
+
+</LinearLayout>
